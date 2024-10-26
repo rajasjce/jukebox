@@ -22,6 +22,20 @@ Jukebox is a RESTful API application for managing music albums and musicians. Th
 2. **Run the Server**:
 
    ```go run main.go```
+   The server will run at http://localhost:8080. You can access this URL to check if the server is running.
+   
+4. **Install Dependencies**
+
+   Use the Go tool to install required dependencies:
+```go mod tidy```
+
+5. **Set Up the Database**
+
+   Ensure the database is properly set up. A sample database script is included in the repository to create the necessary tables.
+
+   Run the following command to create the database and tables:
+   ```sqlite3 jukebox.db < database/schema.sql```
+
 
 ## API Endpoints
 
