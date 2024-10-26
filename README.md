@@ -17,7 +17,7 @@ Jukebox is a RESTful API application for managing music albums and musicians. Th
 1. **Clone the Repo**:
    ```bash
    git clone https://github.com/rajasjce/jukebox.git
-   cd jukebox```
+   cd jukebox
 
 2. **Run the Server**:
 
